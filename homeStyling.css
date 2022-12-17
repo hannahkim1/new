@@ -60,26 +60,30 @@ body {
     left: 0;
     right: 0;
     padding: 0px;
-    
-    margin-left: 20vw;
+    background-color: #FBF7F4;
 }
 .backgroundVideo {
-    width: 65vw;
+    margin-top: 8vh;
+    margin-left: 15vw;
+    width: 80vw;
 }
 .gif {
-    height: 80%;
+    width: 100%;
 }
+
 
 
 footer {
     display: flex;
     margin: 0;
     margin-right: 5vw;
+    margin-bottom: 3vh;
+    margin-top: 5vh; 
 }
 
 .createdBy {
     font-family: BobbyJonesOutline;
-    font-size: 2vmax;
+    font-size: 2.5vmax;
     color: #A1683A;
 }
 
@@ -96,12 +100,41 @@ ul {
 }
 
 li {
-    font-size: 1.5vmax;
+    font-size: 2vmax;
     font-family: BobbyJonesSoft;
     text-align: center;
-    margin-left: 3vw;
+    margin-left: 2vw;
 }
 
+
+@media screen and (min-width: 1200px) {
+    .backgroundVideo {
+        margin-top: 8vh;
+        margin-left: 18vw;
+        width: 60vw;
+    }
+    
+    footer {
+        margin: 0;
+        margin-top: 3vw;
+        justify-content: center;
+        display: flex;
+    }
+
+    .createdBy {
+        font-family: BobbyJonesOutline;
+        font-size: 2vmax;
+        color: #A1683A;
+    }
+
+    li {
+        font-size: 2vmax;
+        font-family: BobbyJonesSoft;
+        text-align: center;
+        margin-left: 2vw;
+    }
+    
+}
 
 /* colors:
     cream: FBF7F4
