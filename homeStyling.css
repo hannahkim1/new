@@ -1,0 +1,60 @@
+/* importing all the fonts */
+@font-face {
+    font-family: 'BobbyJonesSoft';
+    src: url("fonts/bjSoft.otf");
+}
+@font-face {
+    font-family: 'BobbyJonesOutline';
+    src: url("font/bjSoftOutline.otf");
+}
+
+html {
+    background-color: #FBF7F4;
+    scroll-behavior: smooth;
+
+    cursor: url(https://cur.cursors-4u.net/nature/nat-10/nat996.cur), auto !important;
+}
+
+.navigationBar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+
+    margin-left: 3vw;
+    margin-top: 3vw;
+
+    height: 100%;
+    width: 30vw;
+    position: fixed;
+    overflow: auto;
+
+    font-size: 2.8vw;
+}
+
+.navigationBar a {
+    display: block;
+    text-decoration: none;
+
+    font-family: "BobbyJonesSoft";
+}
+
+.navigationActive {
+    color: #E8998D;
+}
+.navigationPassive {
+    color: #A1683A;
+    transition: color 0.5s;
+}
+.navigationPassive:hover {
+    color: #EED2CC;
+}
+
+
+/* colors:
+    cream: FBF7F4
+    brown: A1683A
+    dark pink: E8998D
+    light pink: EED2CC
+    green: 6C9A8B
+*/
+

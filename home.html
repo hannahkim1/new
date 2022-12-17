@@ -2,49 +2,30 @@
 
 <html lang="en">
     <head>
-        <title>hsk</title>
+        <title>hannah sofia kim</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
         <!-- linking css -->
-        <link rel="stylesheet" href="hannahpwStyle.css">
-        <link rel="stylesheet" href="hannahpwNavigationBar.css">
-        <!-- linking javascript-->
-        <script src="navigationJS.js"></script>
-
-        <!-- importing animate library-->
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+        <link rel="stylesheet" href="homeStyling.css">
+        <link rel="icon" href="home/icon.png">
+        
     </head>
 
 
     <body>
+        <ul class="navigationBar">
+            <li><a href="home.html" class="navigationActive">Home</a></li>
+            <li><a href="projects.html" class="navigationPassive">Projects</a></li>
+            <li><a href="aboutme.html" class="navigationPassive">About Me</a></li>
+        </ul>
+
         <section class="main">
-            <div class="titleHeader">
-                <!-- animated dancing header-->
-                <video class="backgroundVideo" autoplay muted loop>
-                    <source src="bgVideo.mp4" type="video/mp4">
-                </video>
-            </div>
+            <video class="backgroundVideo" autoplay muted loop>
+                <source src="home/bgVideo.mp4" type="video/mp4">
+            </video>
         </section>
 
-        <section class="pinkSectionHome"> <!-- including the buttons and the photos-->
-            <section class="navigationSection"> <!-- just the buttons-->
-                <a href="aboutme.html" class="navigation">About Me</a>
-                <a href="projects.html" class="navigation">Projects</a>
-                <a href="resume.html" class="navigation">Resume/CV</a>
-            </section>
-            <div class="photos">
-                <div class="photo">
-                    <img class="photoimg" src="photos/twiceConcert.jpg" alt="pic at twice concert">
-                </div>
-                <div class="photo">
-                    <img class="photoimg" src="photos/sunrise.JPG" alt="pic with kayla at sunrise">                
-                </div>
-            </div>
-                <p class="photosDescription">
-                    here are some photos of me and my friends
-                </p>
-        </section>
 
         <footer>
             <h2 class="createdBy">created by hannah kim</h2>
