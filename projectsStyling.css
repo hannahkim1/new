@@ -47,32 +47,12 @@ body {
 .navigation:hover {
     color: #EED2CC;
 }
-.navigation:visited {
-    color: #A1683A;
-}
 .active {
     color: #E8998D;
 }
 
-.main {
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    padding: 0px;
-    background-color: #FBF7F4;
-}
-.backgroundVideo {
-    margin-top: 8vh;
-    margin-left: 10vw;
-    width: 80vw;
-}
-.gif {
-    width: 100%;
-}
 
-
-
+/* footer */
 footer {
     display: flex;
     margin: 0;
@@ -106,34 +86,11 @@ li {
     margin-left: 2vw;
 }
 
-
-@media screen and (min-width: 1200px) {
-    .backgroundVideo {
-        margin-top: 8vh;
-        margin-left: 25vw;
-        width: 60vw;
-    }
-    
-    footer {
-        margin: 0;
-        margin-top: 3vw;
-        justify-content: center;
-        display: flex;
-    }
-
-    .createdBy {
-        font-family: BobbyJonesOutline;
-        font-size: 2vmax;
-        color: #A1683A;
-    }
-
-    li {
-        font-size: 2vmax;
-        font-family: BobbyJonesSoft;
-        text-align: center;
-        margin-left: 2vw;
-    }
-    
+/* projects individual page */
+h1 {
+    color: #E8998D;
+    font-size: 2vw;
+    text-align: center;
 }
 
 /* colors:
