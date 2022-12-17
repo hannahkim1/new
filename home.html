@@ -8,31 +8,33 @@
 
         <!-- linking css -->
         <link rel="stylesheet" href="homeStyling.css">
-        <link rel="icon" href="home/icon.png">
-        
+
+        <link rel="icon" href="home/tab.png">
     </head>
 
 
     <body>
-        <ul class="navigationBar">
-            <li><a href="home.html" class="navigationActive">Home</a></li>
-            <li><a href="projects.html" class="navigationPassive">Projects</a></li>
-            <li><a href="aboutme.html" class="navigationPassive">About Me</a></li>
-        </ul>
+        <section class="navigationBar">
+            <a href="home.html" class="active">Home</a>
+            <a href="projects.html" class="navigation">Projects</a>
+            <a href="aboutme.html" class="navigation">About Me</a>
+        </section>
 
         <section class="main">
             <video class="backgroundVideo" autoplay muted loop>
-                <source src="home/bgVideo.mp4" type="video/mp4">
+                <source src="home/bgVideo.mp4" type="video/mp4" class="gif">
             </video>
         </section>
 
-
         <footer>
-            <h2 class="createdBy">created by hannah kim</h2>
             <ul>
-                <li><a href="https://www.linkedin.com/in/hannah-kim-137b1b249" style="color: #6C9A8B; text-decoration: none">linkedin</a></li>
-                <li><a href="mailto: hannahskim7@gmail.com" style="color: #6C9A8B; text-decoration: none">hannahskim7@gmail.com</a></li>
-                <li style="color: #6C9A8B; text-decoration: none">+1 (661)-313-9258</li>
+                <li class="createdBy">designed and coded by hannah kim</li>
+
+                <div class="specifics">
+                    <li><a href="https://www.linkedin.com/in/hannah-kim-137b1b249" style="color: #E8998D; text-decoration: none">linkedin</a></li>
+                    <li><a href="mailto: hannahskim7@gmail.com" style="color: #E8998D; text-decoration: none">hannahskim7@gmail.com</a></li>
+                    <li style="color: #E8998D; text-decoration: none">+1 (661)-313-9258</li>
+                </div>
             </ul>
         </footer>
     </body>
