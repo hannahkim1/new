@@ -1,16 +1,11 @@
-/* importing all the fonts */
-@font-face {
-    font-family: 'BobbyJonesSoft';
-    src: url("fonts/bjSoft.otf");
-}
-@font-face {
-    font-family: 'BobbyJonesOutline';
-    src: url("font/bjSoftOutline.otf");
-}
 
 /* projects individual page */
 .mainBody {
     margin-left: 10vw;
+}
+
+.spaceq {
+    height: 10vh;
 }
 
 h1 {
@@ -20,7 +15,7 @@ h1 {
     font-family: 'BobbyJonesOutline';
     width: 70%;
     margin: auto;
-    margin-top: 5px;
+
     margin-bottom: 4vh;
 }
 

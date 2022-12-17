@@ -1,0 +1,336 @@
+.spaceq {
+    height: 10vh;
+}
+.cv {
+    margin-top: 30vh;
+    width: 100px;
+    position: absolute;
+}
+.link {
+    font-size: 20px;
+    text-decoration: none;
+    color: #6C9A8B;
+    text-align: center;
+    transition: color 0.2s;
+}
+.link:hover {
+    color: #EED2CC;
+}
+
+.mainBody {
+    margin-left: 10vw;
+    font-family: "BobbyJonesSoft";
+}
+
+h1 {
+    color: #E8998D;
+    font-size: 40px;
+    text-align: center;
+    font-family: 'BobbyJonesOutline';
+    width: 70%;
+    margin: auto;
+    margin-top: 5px;
+    margin-bottom: 4vh;
+}
+
+
+/* copy and paste from fan favorites */
+
+/* songs, films, books mini titles */
+.titles {
+    color: #E8998D;
+    font-size: 35px;
+    margin: auto;
+
+    width: 50%;
+}
+
+.spotifyLink {
+    width: 50%;
+    margin: auto;
+    text-align: center; 
+    color: #6C9A8B;
+    font-size: 25px;
+    margin-bottom: 80px;
+}
+
+.bestAlbums {
+    margin: auto;
+    text-align: center; 
+    font-style: oblique;
+    color: #6C9A8B;
+    font-size: 20px;
+
+    width: 50vw;
+}
+
+.screenshots {
+    text-align: center;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.songsGroupings {
+    box-sizing: border-box;
+    display: flex;
+
+    margin: auto;
+    text-align: center;
+}
+.songsScreenshot {
+    flex: 50%;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 20px;
+}
+
+/* books nowwww */
+.books {
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.bookGrouping {
+    margin-top: 30px;
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+}
+.background {
+    background-color: #FBF7F4;
+    padding: 20px;
+
+    margin-bottom: 40px;
+    margin: auto;
+    position: relative;
+    flex: 33%;
+
+    border-radius: 10px;
+    transition: border-radius 0.5s;
+}
+.background:hover {
+    border-radius: 25px;
+}
+.image {
+    display: block;
+    width: 100%;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0; 
+    color: #6C9A8B;
+    display: flex;
+    font-size: 90%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s;
+    transition: border-radius 0.5s;
+}
+.overlay:hover {
+    opacity: 1;
+    border-radius: 25px;
+}
+
+
+.films {
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+    margin-bottom: 120px;
+}
+.filmGrouping {
+    box-sizing: border-box;
+    display: flex;
+    text-align: center;
+}
+.filmBackground {
+    background-color: #FBF7F4;
+    padding: 20px;
+    flex: 30%;
+    border-radius: 10px;
+    margin-bottom: 40px;
+    margin: auto;
+    position: relative;
+    margin-left: 10px;
+    margin-right: 10px;
+    transition: border-radius 0.5s;
+}
+.filmBackground:hover {
+    border-radius: 25px;
+}
+.filmImage {
+    display: block;
+    width: 100%;
+}
+.filmOverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7);
+    opacity: 0; 
+    color: #6C9A8B;
+    display: flex;
+    font-size: 15px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: opacity 0.25s; 
+    transition: border-radius 0.5s;
+}
+.filmOverlay:hover {
+    opacity: 1;
+    border-radius: 25px;
+}
+
+
+.rGroup {
+    display: flex;
+    width: 55vw;
+
+    margin: auto;
+}
+.restaurantBackground {
+    color: #6C9A8B;
+    background-color: #FBF7F4;
+    padding: 20px;
+    margin: auto;
+
+    border-radius: 25px;
+    
+    flex: 50%;
+    margin-left: 25px;
+    margin-right: 25px;
+    margin-top: 10px;
+}
+
+
+/* colors:
+    cream: FBF7F4
+    brown: A1683A
+    dark pink: E8998D
+    light pink: EED2CC
+    green: 6C9A8B
+*/
+
+
+.miniTitles {
+    color: #E8998D;
+    text-align: center;
+
+    font-size: 23px;
+}
+
+
+.duolingoPics {
+    display: flex;
+    margin: auto;
+
+    margin-bottom: 50px;
+    width: 50vw;
+}
+.duolingoPic1 {
+    width: 50vw;
+    margin-right: 20px;
+}
+.duolingoPic2 {
+    width: 50vw;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+.duolingoText1 {
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    color: #6C9A8B;
+    text-align: center;
+}
+
+
+.duolingoLink {
+    font-size: 23px;
+    text-align: center;
+    transition: font-size 1s; 
+}
+.duolingoLink:hover {
+    font-size: 26px;
+}
+
+.duolingoExample {
+    width: 30vw;
+    margin: auto;
+    margin-top: 3vw;
+    margin-bottom: 2vw;
+}
+
+.bikes {
+    width: 50vw;
+    margin: auto;
+}
+
+/* edited videos */
+.editedVideosIntro {
+    font-size: 20px;
+    color: #6C9A8B;
+    text-align: center;
+    width: 70vw;
+    margin: auto;
+}
+
+
+.vidsExample1 {
+    width: 50%;
+    margin: auto;
+    border-radius: 50px;
+    margin-top: 2vw;
+    margin-bottom: 5vw;
+
+    text-align: center;
+    color: #EED2CC;
+    font-size: 20px;
+    font-family: "BobbyJonesSoft";
+}
+
+.blankSpace {
+    height: 1vw;
+}
+
+.sectionSpace {
+    height: 2vw;
+}
+
+.final {
+    height: 10vh;
+}
+
+@media screen and (min-width: 900px) {
+    .bestAlbums {
+        width: 35vw;
+        margin: auto;
+        text-align: center; 
+        font-style: oblique;
+        color: #6C9A8B;
+        font-size: 20px;
+    }
+    .books {
+        text-align: center;
+        width: 50vw;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+    .films {
+        text-align: center;
+        width: 50vw;
+        margin: auto;
+        margin-bottom: 120px;
+    }
+}
