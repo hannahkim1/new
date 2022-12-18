@@ -24,11 +24,21 @@ h1 {
     margin: auto;
     justify-content: center;
     width: 55vw;
+    margin-top: 1vh;
 }
 .project {
     margin: 0;
     margin-left: 2vw;
     margin-right: 2vw;
+}
+
+.actualImage {
+    width: 100%;
+    border-radius: 5px;
+    transition: box-shadow 0.3s;
+}
+.actualImage:hover {
+    box-shadow: 2px 2px 7px black;
 }
 
 .image {
@@ -37,6 +47,11 @@ h1 {
 
 p {
     font-family: "BobbyJonesSoft";
+    color: #6C9A8B;
+}
+.desc {
+    margin: 0;
+    margin-top: 1vh;
 }
 
 
