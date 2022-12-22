@@ -140,7 +140,7 @@ h1 {
 }
 
 .sectionSpacing {
-    margin-bottom: 10vh;
+    margin-bottom: 6vh;
 }
 
 p {
@@ -159,18 +159,17 @@ p {
     font-family: BobbyJonesSoft;
     font-size: 22px;
 }
-.finalBeginning {
-    margin-bottom: 20px;
-}
 
-.finalGroup {
-    margin-left: 5vw;
-}
 
 img {
     margin: 0;
 }
 
+
+.finalGroup {
+    margin-left: 15vw;
+    margin-right: 10vw;
+}
 
 /* colors:
     cream: FBF7F4
