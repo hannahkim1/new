@@ -172,9 +172,36 @@ img {
 }
 
 .finalBeginning {
-    margin-left: 15vw;
+    margin-left: 10vw;
 }
 
+h2 {
+    color: #E8998D;
+    font-family: "BobbyJonesSoft";
+    font-size: 35px;
+    margin: 0;
+    margin-bottom: 1vh;
+}
+
+h4 {
+    margin: 0;
+    color: black;
+    font-family: Inter;
+    font-size: 1.2vw;
+    margin-left: 2vw;
+    margin-right: 2vw;
+}
+
+.individual {
+    display: flex;
+}
+.links {
+    flex: 60%;
+}
+.title {
+    flex: 40%;
+    padding: 70px 0;
+}
 /* colors:
     cream: FBF7F4
     brown: A1683A
