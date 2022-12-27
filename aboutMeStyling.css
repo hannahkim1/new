@@ -10,6 +10,8 @@
     position: fixed;
     z-index: 100;
 
+    animation: loader 2s infinite ease;
+
 }
 .cv {
     margin-top: 30vh;
