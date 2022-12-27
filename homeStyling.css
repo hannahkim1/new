@@ -133,6 +133,17 @@ li {
     
 }
 
+#preloader {
+    background: #FBF7F4 url(loading.gif) no-repeat center center;
+    background-size: 28%;
+    height: 100vh;
+    width: 100%;
+
+    position: fixed;
+    z-index: 100;
+
+}
+
 /* colors:
     cream: FBF7F4
     brown: A1683A
