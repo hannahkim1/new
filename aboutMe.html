@@ -15,6 +15,8 @@
 
 
     <body>
+        <div id="preloader"></div>
+
         <section class="navigationBar">
             <a href="home.html" class="navigation">Home</a>
             <a href="projects.html" class="navigation">Work</a>
@@ -220,5 +222,13 @@
                 </div>
             </ul>
         </footer>
+
+        <script>
+            var loader = document.getElementById("preloader");
+
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
     </body>
 </html>
