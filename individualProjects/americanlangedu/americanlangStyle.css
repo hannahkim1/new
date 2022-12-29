@@ -209,3 +209,14 @@ h4 {
     light pink: EED2CC
     green: 6C9A8B
 */
+
+#preloader {
+    background: #FBF7F4 url(loading.gif) no-repeat center center;
+    background-size: 28%;
+    height: 100vh;
+    width: 100%;
+
+    position: fixed;
+    z-index: 100;
+
+}

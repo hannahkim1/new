@@ -14,6 +14,8 @@
 
 
     <body>
+        <div id="preloader"></div>
+
         <section class="navigationBar">
             <a href="https://hannahsf.kim/home.html" class="navigation">Home</a>
             <a href="https://hannahsf.kim/projects.html" class="navigation">Work</a>
@@ -87,5 +89,13 @@
                 </div>
             </ul>
         </footer>
+
+        <script>
+            var loader = document.getElementById("preloader");
+
+            window.addEventListener("load", function(){
+                loader.style.display = "none";
+            })
+        </script>
     </body>
 </html>
